@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jk.todospringreact.model.Todo;
 import com.jk.todospringreact.model.TodoRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://jk-react-app.herokuapp.com")
 @RestController
 public class TodoController {
 	
